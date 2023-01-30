@@ -31,7 +31,11 @@ body {
   border-radius: 50%;
   width: 80px;
   height: 80px;
-}
+  }
+  
+ a:hover{color:rgb(52, 26, 77)}  
+ 
+ #photo { border-style: dashed; border-color: aqua;}
 
 .header__title {
   margin: 0;
@@ -44,6 +48,14 @@ body {
 
 .header__subtitle {
   color: #7d7d7f;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.parag { 
+  color: #3379fc;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
